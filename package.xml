@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Image_Barcode</name>
  <channel>pear.php.net</channel>
  <summary>Barcode generation</summary>
@@ -14,10 +14,10 @@
   <email>msmarcal@php.net</email>
   <active>yes</active>
  </lead>
- <date>2011-12-10</date>
- <time>22:56:57</time>
+ <date>2012-03-24</date>
+ <time>15:16:26</time>
  <version>
-  <release>1.1.2</release>
+  <release>1.1.3</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -27,11 +27,7 @@
  <license uri="http://www.php.net/license">PHP License</license>
  <notes>
 QA release
-End of life - users are encouraged to swap to Image_Barcode2
-Request #18369 Allow user to select barcode image size
-Request #18377 Adding EAN8 support (patch attached)
-Bug #18376 EAN13 code does not correctly calculate image width
-Bug #17353 GD Image font functions given string parameters where inte…
+Bug #19345 Excess archive
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -47,7 +43,6 @@ Bug #17353 GD Image font functions given string parameters where inte…
    <file baseinstalldir="/" md5sum="b888577270b35cb8dd069187254f6457" name="Image/Barcode/int25.php" role="php" />
    <file baseinstalldir="/" md5sum="047cdd904a7466099853c399fc9e9042" name="Image/Barcode/postnet.php" role="php" />
    <file baseinstalldir="/" md5sum="23f454e4085de1cd9907c1d1289cbf28" name="Image/Barcode/upca.php" role="php" />
-   <file baseinstalldir="/" md5sum="5743f5f483b9a09b299e334d0cb4490a" name="Image_Barcode-1.1.1.tgz" role="data" />
    <file baseinstalldir="/" md5sum="24fc56ca72d6362637db65025008d49f" name="README" role="data" />
   </dir>
  </contents>
@@ -179,6 +174,22 @@ Request #18369 Allow user to select barcode image size
 Request #18377 Adding EAN8 support (patch attached)
 Bug #18376 EAN13 code does not correctly calculate image width
 Bug #17353 GD Image font functions given string parameters where inte…
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.3</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-03-24</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>
+QA release
+Bug #19345 Excess archive
    </notes>
   </release>
  </changelog>
