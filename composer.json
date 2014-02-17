@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Image_Barcode": "./"
+            "Image": "./"
         }
     },
     "description": "More info available on: http://pear.php.net/package/Image_Barcode",
@@ -27,5 +27,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*"
+    },
+    "suggest": {
+        "pear/php_compat": "Install optionally via your project's composer.json"
     }
 }
