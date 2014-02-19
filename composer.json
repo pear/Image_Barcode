@@ -1,0 +1,34 @@
+{
+    "authors": [
+        {
+            "email": "msmarcal@php.net",
+            "name": "Marcelo Subtil Marcal",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Image": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Image_Barcode",
+    "include-path": [
+        "./"
+    ],
+    "license": "PHP License",
+    "name": "pear/image_barcode",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Image_Barcode",
+        "source": "https://github.com/pear/Image_Barcode"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "suggest": {
+        "pear/php_compat": "Install optionally via your project's composer.json"
+    }
+}
